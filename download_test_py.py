@@ -14,7 +14,7 @@ def downloadVid():
     vid=videos[n-1]
     destination=str(input("Enter your destination"))
     if destination == "":
-        destination = /sdcard/YouTubeVideoDownloads
+        destination ="/sdcard/YouTubeVideoDownloads"
     vid.download(destination)
     print(yt.filename+"\n Has been downloaded")
 root=tk.Tk()
